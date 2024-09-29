@@ -49,7 +49,42 @@
           </tr>
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-				
+<tr onmouseout="zipnerf_stop()" onmouseover="zipnerf_start()"  bgcolor="#ffffd0">
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+          <img src='images/translora.png' width="160">
+        </div>
+        <script type="text/javascript">
+          function zipnerf_start() {
+            document.getElementById('zipnerf_image').style.opacity = "1";
+          }
+
+          function zipnerf_stop() {
+            document.getElementById('zipnerf_image').style.opacity = "0";
+          }
+          zipnerf_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+        <a>
+          <papertitle>Trans-LoRA: towards data-free Transferable Parameter Efficient Finetuning</papertitle>
+        </a>
+        <br>
+	<strong>Wang, R.</strong>,
+        <a>Ghosh, S., Cox, D., Antognini, D., Oliva, A., Feris, R. and Karlinsky, L.</a>,
+        <br>
+        <em>Advances in Neural Information Processing Systems, 37</em>, 2024
+        <br>
+
+        <a href="https://arxiv.org/abs/2405.17258">Paper</a>
+        <p></p>
+        <p>
+        Enables nearly data-free and compute-efficient transfer of existing PEFT modules trained on old base model to new base models, while at least preserving, in most cases improve, performance.
+        </p>
+      </td>
+    </tr>
+
+		
     <tr onmouseout="zipnerf_stop()" onmouseover="zipnerf_start()"  bgcolor="#ffffd0">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
