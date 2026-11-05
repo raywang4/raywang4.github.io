@@ -51,7 +51,38 @@
           </tr>
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-			
+		<tr onmouseout="zipnerf_stop()" onmouseover="zipnerf_start()">
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+          <img src='images/correction.png' width=100%>
+        </div>
+        <script type="text/javascript">
+          function zipnerf_start() {
+            document.getElementById('zipnerf_image').style.opacity = "1";
+          }
+
+          function zipnerf_stop() {
+            document.getElementById('zipnerf_image').style.opacity = "0";
+          }
+          zipnerf_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+        <a href="https://www.arxiv.org/abs/2610.14136">
+          <papertitle>Correction Training for Diffusion Models</papertitle>
+        </a>
+        <br>
+		  Donghoon Ahn, <strong>Runqian Wang</strong>, Alexei A. Efros, Taesung Park, Yash Belhe
+		<br>
+        <em>Preprint</em>, 2026
+	<br>
+        <a href="https://sunovivid.github.io/correction-training/">website</a> / <a href="https://github.com/sunovivid/correction-training">code</a> / <a href="https://arxiv.org/pdf/2610.14136">paper</a>
+        <p></p>
+        <p>
+        Making unconditional unguided generation with diffusion work just as well (or better) than using CFG.
+        </p>
+      </td>
+    </tr>	
 <tr onmouseout="zipnerf_stop()" onmouseover="zipnerf_start()">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
@@ -137,7 +168,7 @@
         </script>
       </td>
       <td style="padding:20px;width:75%;vertical-align:middle">
-        <a href="https://arxiv.org/abs/2510.02300">
+        <a href="https://arxiv.org/abs/2608.14706">
           <papertitle>Equilibrium Forcing: Adaptive Video Generation Without Noise Conditioning</papertitle>
         </a>
         <br>
@@ -145,7 +176,7 @@
 	<br>
 		  <em>NeurIPS</em>, 2026
 	<br>
-        <a href="https://equilibriumforcing.github.io/">website</a> / <a href="https://github.com/raywang4/EqM">code</a> / <a href="https://arxiv.org/pdf/2608.14706">paper</a>
+        <a href="https://equilibriumforcing.github.io/">website</a> / <a href="https://github.com/Rose-STL-Lab/eqf">code</a> / <a href="https://arxiv.org/pdf/2608.14706">paper</a>
         <p></p>
         <p>
         Equilibrium Forcing improves and extends Equilibrium Matching to video generation, achieving better video generation quality and sampling speed through adaptive sampling.
